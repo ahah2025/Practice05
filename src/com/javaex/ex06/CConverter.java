@@ -16,5 +16,10 @@ public class CConverter {
         return dollar * rate;
     }
     
-
+    //출력
+	public void showInfo(){
+		System.out.println("백만원은"+"dollar"+"달러입니다.");  
+		System.out.println("백달러는"+"won"+"입니다.");
+	
+	}
 }

@@ -1,4 +1,9 @@
-//Red 경고가 왜 보이는지 이유를 모르겠음
+/*
+백만원은Infinity입니다.
+백달러는0.0입니다.
+
+결 과 값이 다르게 나옴
+ */
 package com.javaex.ex06;
 
 public class CConverterApp {
@@ -8,15 +13,9 @@ public class CConverterApp {
         double dollar;
         double won;
         
-        CConverter.setRate(1118.70);
-        
-        //100만원을 달러로 출력하기
-        System.out.println(CConverterApp.minus(1000000/1118.70));
+        //CConverter.setRate(1118.70);
+        System.out.println("백만원은"+CConverter.toDoller(1000000)+"입니다.");
+        System.out.println("백달러는"+CConverter.toKWR(1118.70)+"입니다.");
 
-        //100달러를 원으로 출력하기
-		System.out.println(CConverterApp.minus(1118.7*1000000));
-           
-        dollar.showInfo();
-        won.showInfo();
     }
 }

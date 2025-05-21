@@ -10,7 +10,7 @@ public class AccountApp {
         boolean run = true;
         int money;
         
-        Account account = new Account("312-89562-123456",1);
+        Account account = new Account("312-89562-123456");
         
         while(run){
             System.out.println("");
@@ -50,14 +50,7 @@ public class AccountApp {
                     break;
                     
             }//switch 
-            switch(money) {
-            case 1:
-            case 2:
-            case 3:
-            case 4:	
-            	System.out.println("1500");
-            	break;
-            }
+            
             
         }//while
         sc.close();

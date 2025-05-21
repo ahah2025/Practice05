@@ -7,9 +7,8 @@ public class Goods {
 	private int price;
 	
 	//생성자
-	public Goods() {
-		
-	}
+	public Goods() {}
+	
 	public Goods(String name, int price) {
 		this.name=name;
 		this.price=price;

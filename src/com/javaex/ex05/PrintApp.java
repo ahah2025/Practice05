@@ -14,12 +14,3 @@ public class PrintApp {
     }
 
 }
-/*
- 
-결 과 값
-10
-true
-5.7
-홍길동
-
-*/
